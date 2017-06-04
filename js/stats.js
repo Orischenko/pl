@@ -143,7 +143,5 @@ var Stats = function () {
 };
 
 if ( typeof module === 'object' ) {
-
 	module.exports = Stats;
-
 }
