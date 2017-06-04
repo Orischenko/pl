@@ -143,5 +143,13 @@ var Stats = function () {
 };
 
 if ( typeof module === 'object' ) {
+
 	module.exports = Stats;
+
 }
+
+var gradient = document.querySelector('.gradient');
+
+setTimeout(function () {
+    gradient.style.opacity = 1;
+}, 100);

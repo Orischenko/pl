@@ -47,6 +47,8 @@ canvas{
   position: absolute;
   top: 0;
   left: 0;
+  opacity: 0;
+  transition: all 3s ease;
   background: linear-gradient(to top, #9357cc 0%,#2989d8 50%,#2cc99d 100%);
 }
 
@@ -65,7 +67,7 @@ canvas {
   align-items: center;
   display: flex;
   flex-direction: column;
-  //mix-blend-mode: multiply;
+  mix-blend-mode: multiply;
 }
 
 h1 {
@@ -95,6 +97,6 @@ p {
   text-align:center;
   color: #fff;
   display: inline-block;
-  background: linear-gradient(to right, rgba(147, 87, 204, 0.95) 0%, rgba(41, 137, 216, 0.95) 50%, rgba(44, 201, 157, 0.95) 100%);
+  background: linear-gradient(to right, rgba(147, 87, 204, 1) 0%, rgba(41, 137, 216, 1) 50%, rgba(44, 201, 157, 1) 100%);
   padding: 15px 30px 16px 40px;
 }
