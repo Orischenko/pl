@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+html,body{
+	width:100%;
+	height:100%;
+	background:#fff;
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body{
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+
+.gradient {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to top, #9357cc 0%,#2989d8 50%,#2cc99d 100%);
+}
+
+canvas {
+  position: relative;
+  background-color: #fff;
+  mix-blend-mode: screen;
+}
+
+.company_caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  //mix-blend-mode: multiply;
+}
+
+h1 {
+  font: 60px/80px 'Poppins';
+  text-transform: uppercase;
+  letter-spacing: 45px;
+  text-align:center;
+  margin: 0 0 25px;
+  background: linear-gradient(to top, #9357cc 0%,#2989d8 50%,#2cc99d 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+p {
+  font: 15px/25px 'Poppins';
+  text-transform: uppercase;
+  letter-spacing: 13px;
+  text-align:center;
+  color: #04253c;
+  margin: 0 0 60px;
+}
+
+.btn {
+  font: 15px/25px 'Poppins';
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  text-align:center;
+  color: #fff;
+  display: inline-block;
+  background: linear-gradient(to right, rgba(147, 87, 204, 0.95) 0%, rgba(41, 137, 216, 0.95) 50%, rgba(44, 201, 157, 0.95) 100%);
+  padding: 15px 30px 16px 40px;
+}
